@@ -1,5 +1,5 @@
-**Goal and Prehistory**
-=======================
+Goal and Prehistory
+===================
 
 How you can know Walmart API provides to get only 5 reviews. I needed to get all reviews was related to specific item. And I wrote a little parser.
 
@@ -7,17 +7,17 @@ How to install
 ==============
 
 
-**Structure**
-=============
+Structure
+=========
 
 Function reviews returns a dictionary which can be transform in json. The structure is next:
-
+::
         'product_id': product_id,               # Product ID
         'product_name': product_name,           # Product name
         'product_reviews_list': reviews_list    # List with reviews: [{...}, {...}, ..., {...}]
 
 Every review is presented like dictionary:
-
+::
         'review_title': review_title,                   # Review title
         'review_date': review_date,                     # Review posted date
         'review_rating': review_rating,                 # Product's rating was evaluated by the reviewer
