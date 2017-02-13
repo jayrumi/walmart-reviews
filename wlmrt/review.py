@@ -120,7 +120,7 @@ def reviews(in_product_id, *arg):
                     './/div[@class="Grid-col u-size-3-12-m customer-info hide-content display-inline-block-m"]/div[@class="customer-attributes"]/div'):
                 #print(attr.xpath('text()'), attr.xpath('span/text()'))
                 attr_dict = {}
-                attr_dict[str(attr.xpath('text()')[0]).replace('Would recommend to a friend?\n              ', 'Recomend').replace(':', '')] = attr.xpath('span/text()')[0]
+                attr_dict[str(attr.xpath('text()')[0]).replace('Would recommend to a friend?\n              ', 'Recommend').replace(':', '')] = attr.xpath('span/text()')[0]
                 reviewer_attributes.append(attr_dict)
             #print(reviewer_attributes)
 
