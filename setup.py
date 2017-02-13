@@ -13,8 +13,8 @@ setup(
     author       = 'Yauheni Rumiantsau',
     author_email = 'jrumyantsev@gmail.com',
     url          = 'https://github.com/jayrumi/walmart-reviews',
-    download_url = 'https://github.com/jayrumi/walmart-reviews',
-    license      = '',
+    download_url = 'https://github.com/jayrumi/walmart-reviews/blob/master/',
+    license      = 'Apache 2.0',
     keywords     = 'walmart',
     classifiers  = [
         'Intended Audience :: Developers',
