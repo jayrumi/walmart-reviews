@@ -29,3 +29,7 @@ Every review is presented like dictionary:
         'reviewer_attributes': reviewer_attributes,     # List with reviewer's attributes such as ages, gender and etc. (if it is pointed)
         'is_reviewer_verified': is_reviewer_verified,   # When the reviewer is verified it returns "Yes", else - "No"
         'reviewer_top_list': reviewer_top_list          # Returns list with all reviewer's TOPs (if reviewer is TOP's participant)
+
+How to use
+==========
+
