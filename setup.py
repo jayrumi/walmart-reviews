@@ -14,7 +14,7 @@ setup(
     author       = 'Yauheni Rumiantsau',
     author_email = 'jrumyantsev@gmail.com',
     url          = 'https://github.com/jayrumi/walmart-reviews',
-    download_url = 'https://github.com/jayrumi/walmart-reviews/dist/walmart-reviews-1.2.0.dev1.tar.gz',
+    download_url = 'https://github.com/jayrumi/walmart-reviews/tree/master/dist/walmart-reviews-1.2.0.dev1.tar.gz',
     license      = 'MIT License',
     keywords     = 'walmart parsing',
     classifiers  = [
