@@ -13,8 +13,8 @@ setup(
     long_description = 'A package for parsing reviews and all information about reviewers from walmart.com for specific item. For more information read README.rst', #open('README.rst').read(),
     author       = 'Yauheni Rumiantsau',
     author_email = 'jrumyantsev@gmail.com',
-    url          = 'https://github.com/jayrumi/walmart-reviews/dist/walmart-reviews-0.1.tar.gz',
-    download_url = 'https://github.com/jayrumi/walmart-reviews',
+    url          = 'https://github.com/jayrumi/walmart-reviews',
+    download_url = 'https://github.com/jayrumi/walmart-reviews/dist/walmart-reviews-0.1.tar.gz',
     license      = 'MIT License',
     keywords     = 'walmart parsing',
     classifiers  = [
