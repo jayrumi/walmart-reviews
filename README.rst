@@ -34,14 +34,14 @@ Every review is presented like dictionary:
 How to use
 ==========
 
-Example:
+Example
 ::
 from wlmrt.review import reviews
 rws = reviews(10811473)
 for i in rws['product_reviews_list']:
     print(i)
-::
-You get:
+
+You will get
 ::
 {'review_title': 'Great product', 'review_date': '1/26/2017', ...
 {'review_title': 'Extreme Upgrade!', 'review_date': '1/2/2017', ...
