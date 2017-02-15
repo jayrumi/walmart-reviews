@@ -6,6 +6,7 @@ How you can know Walmart API provides to get only 5 reviews. I needed to get all
 How to install
 ==============
 
+:: pip install walmart-reviews
 
 Structure
 =========
@@ -33,3 +34,29 @@ Every review is presented like dictionary:
 How to use
 ==========
 
+Example:
+::
+from wlmrt.review import reviews
+rws = reviews(10811473)
+for i in rws['product_reviews_list']:
+    print(i)
+
+You get:
+::
+{'review_title': 'Great product', 'review_date': '1/26/2017', ...
+{'review_title': 'Extreme Upgrade!', 'review_date': '1/2/2017', ...
+...
+
+In brackets you need to paste the product's id. Product's id is a number in the link.
+For https://www.walmart.com/ip/Large-Enclosed-Cat-Pan-Colors-May-Vary-Cats/10811473 the id is 10811473
+
+You can use package in 2 mode: with log and without log.
+When mode 'log' is turned on you can see the log of parsing process:
+::
+Product link: https://www.walmart.com/reviews/product/10811473
+Count of page(s) with review(s) 15
+Page #1. Count of parsed reviews in overall: 20
+Page #2. Count of parsed reviews in overall: 40
+...
+Page #15. Count of parsed reviews in overall: 289
+System date:  2017-02-15 12:40:10
