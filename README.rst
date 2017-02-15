@@ -5,7 +5,7 @@ How you can know Walmart API provides to get only 5 reviews. I needed to get all
 
 How to install
 ==============
-
+It's easy:
 ::
     pip install walmart-reviews
 
