@@ -51,7 +51,7 @@ You will get
 In brackets you need to paste the product's id. Product's id is a number in the link.
 For https://www.walmart.com/ip/Large-Enclosed-Cat-Pan-Colors-May-Vary-Cats/10811473 the id is 10811473
 
-You can use package in 2 mode: with log and without log.\n
+You can use package in 2 mode: with log and without log.
 Calling with log:
 ::
     from wlmrt.review import reviews
