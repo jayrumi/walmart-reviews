@@ -67,3 +67,8 @@ When mode 'log' is turned on you can see the log of parsing process:
     ...
     Page #15. Count of parsed reviews in overall: 289
     System date:  2017-02-15 12:40:10
+
+P.S.
+====
+
+Thank you for reading. I wait your suggestions how to improve the package.
