@@ -36,10 +36,10 @@ How to use
 
 Example
 ::
-from wlmrt.review import reviews
-rws = reviews(10811473)
-for i in rws['product_reviews_list']:
-    print(i)
+    from wlmrt.review import reviews
+    rws = reviews(10811473)
+    for i in rws['product_reviews_list']:
+        print(i)
 
 You will get
 ::
