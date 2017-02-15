@@ -5,21 +5,26 @@ How you can know Walmart API provides to get only 5 reviews. I needed to get all
 
 How to install
 ==============
-It's easy:
+
 .. code:: bash
+
     pip install walmart-reviews
 
 Structure
 =========
 
 Function reviews returns a dictionary which can be transform in json. The structure is next:
+
 .. code:: python
+
         'product_id': product_id,               # Product ID
         'product_name': product_name,           # Product name
         'product_reviews_list': reviews_list    # List with reviews: [{...}, {...}, ..., {...}]
 
 Every review is presented like dictionary:
+
 .. code:: python
+
         'review_title': review_title,                   # Review title
         'review_date': review_date,                     # Review posted date
         'review_rating': review_rating,                 # Product's rating was evaluated by the reviewer
@@ -36,14 +41,18 @@ How to use
 ==========
 
 Example:
+
 .. code:: python
+
     from wlmrt.review import reviews
     rws = reviews(10811473)
     for i in rws['product_reviews_list']:
         print(i)
 
 You will get
+
 .. code:: python
+
     {'review_title': 'Great product', 'review_date': '1/26/2017', 'review_rating': '5.0', 'review_text': "Ordered item online and received it a day later. \nI ordered this size as many of the other reviews mentioned that they could not purchase the liners in store for the other sizes.\n\nAfter receiving the litter pan I went to Walmart to purchase the liners and also found that the store I went too also had all the other sizes of liners too so those reviews were not helpful...\n\nOverall my two over weight cats like the box and so far so good. I took the door off so they would get used to going in and out. Smell seems to be controlled too. I may buy another for the price you can't beat it.", 'review_helpful_yes': 'None', 'review_helpful_no': 'None', 'reviewer_name': 'Bakes14', 'reviewer_location': 'Clarington, Ontario, Canada', 'reviewer_attributes': [{'Recommend': 'Yes'}], 'is_reviewer_verified': 'Yes', 'reviewer_top_list': []}
     {'review_title': 'Extreme Upgrade!', 'review_date': '1/2/2017', ...
     ...
@@ -53,13 +62,17 @@ For https://www.walmart.com/ip/Large-Enclosed-Cat-Pan-Colors-May-Vary-Cats/10811
 
 You can use package in 2 mode: with log and without log.
 Calling with log:
+
 .. code:: python
+
     from wlmrt.review import reviews
     rws = reviews(10811473, 'log')
     for i in rws['product_reviews_list']:
         print(i)
 When mode 'log' is turned on you can see the log of parsing process:
+
 .. code:: python
+
     Product link: https://www.walmart.com/reviews/product/10811473
     Count of page(s) with review(s) 15
     Page #1. Count of parsed reviews in overall: 20
