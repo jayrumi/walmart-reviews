@@ -71,8 +71,7 @@ Calling with log:
         print(i)
 When mode 'log' is turned on you can see the log of parsing process:
 
-.. code:: python
-
+::
     Product link: https://www.walmart.com/reviews/product/10811473
     Count of page(s) with review(s) 15
     Page #1. Count of parsed reviews in overall: 20
