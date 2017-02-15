@@ -50,7 +50,13 @@ You will get
 In brackets you need to paste the product's id. Product's id is a number in the link.
 For https://www.walmart.com/ip/Large-Enclosed-Cat-Pan-Colors-May-Vary-Cats/10811473 the id is 10811473
 
-You can use package in 2 mode: with log and without log.
+You can use package in 2 mode: with log and without log.\n
+Calling with log:
+::
+    from wlmrt.review import reviews
+    rws = reviews(10811473, 'log')
+    for i in rws['product_reviews_list']:
+        print(i)
 When mode 'log' is turned on you can see the log of parsing process:
 ::
     Product link: https://www.walmart.com/reviews/product/10811473
