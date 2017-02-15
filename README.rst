@@ -71,4 +71,4 @@ When mode 'log' is turned on you can see the log of parsing process:
 P.S.
 ====
 
-Thank you for reading. I wait your suggestions how to improve the package.
+Thank you for reading and using the package. I wait your suggestions how to improve the package.
